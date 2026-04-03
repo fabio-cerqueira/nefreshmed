@@ -1887,7 +1887,7 @@ margin-top: 40px;
 }
 
 .product .title {
-	text-align:left;
+	text-align:center;
 	padding-bottom: 60px;
 }
 
@@ -1903,11 +1903,14 @@ margin-top: 40px;
 }
 
 .product .title h2:after {
-	position: absolute;
-    border-bottom: #000 solid 10px;
-    content: '';
-    top: 100%;
-    width: 110px;
+	position: relative;
+content: '';
+top: 100%;
+width: 110px;
+height: 10px;
+display: block;
+margin: 0 auto;
+background: #000;
 }
 
 .product .title span{
