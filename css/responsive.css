@@ -333,6 +333,7 @@ padding: 1px 0px 1px 0px;
     }
     #main_slider .carousel-control-prev,
     #main_slider .carousel-control-next {
+        display: none;
         width: 40px;
         height: 40px;
     }
@@ -344,6 +345,11 @@ padding: 1px 0px 1px 0px;
         padding: 0;
         bottom: 0;
     }
+
+    /* .carousel-caption{
+        text-align: right;
+    } */
+
     .banner-main .carousel-caption h1 {
         font-size: 40px;
         line-height: 50px;
@@ -355,6 +361,7 @@ padding: 1px 0px 1px 0px;
         display: none;
     }
     .banner-main .carousel-caption a {margin-top: 0px;}
+
     .carousel-item img {
         width: 100%;
         height: 250px;
